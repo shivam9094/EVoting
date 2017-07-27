@@ -27,6 +27,7 @@ public class AdminLogin extends HttpServlet {
     public AdminLogin() {
         super();
         // TODO Auto-generated constructor stub
+        //Admin login page completed
     }
 
 	/**
