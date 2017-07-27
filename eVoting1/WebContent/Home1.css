@@ -1,0 +1,164 @@
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+*/
+html 
+{
+	background: url(hands-vote.jpg) no-repeat center center fixed;
+	-vebkit-background-size: cover;
+	-noz-background-size:cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+div
+{
+    border-radius: 5px;
+    margin-top: -40px;
+    }
+#header
+{
+    position: fixed;
+    z-index: 1;
+    height:40px;
+    width: 98%;
+    background-color: #668284;
+    margin-bottom: 10px
+    }
+
+#name {
+    float:left;
+    margin-top:9px;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family:"Comic Sans MS";
+	color: #80ffff;
+}
+
+#email{
+    float:right;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+
+/* :hover {
+    font-weight: bold;
+} */
+
+
+    
+
+    
+h3
+{
+    text-decoration: underline;
+    }
+
+
+#navMenu{
+    margin-left:1065px;
+    margin-top:60px;
+    padding:0;
+    border-radius:6px;
+}
+#navMenu ul{
+    margin:0;
+    padding:0;
+    line-height:30px;
+}
+#navMenu li{
+    margin:0;
+    padding:0;
+    list-style:none;
+    float:left;
+    position:relative;
+    background:#00ffff;
+}
+#navMenu ul li a{
+    text-align:center;
+    color:black;
+    text-decoration:none;
+    font-family:"Comic Sans MS";
+    height:30px;
+    width:150px;
+    display:block;
+    border-bottom:1px black solid;
+}
+#navMenu ul li a:hover{
+    color:#8000ff;
+    font-weight:bold;
+}
+#navMenu ul ul{
+    position:absolute;
+    visibility:hidden;
+} 
+#navMenu ul li:hover ul{
+    visibility:visible
+}
+#wrapper1{
+    border-radius:8px 0 8px 0;
+    border-right:1px black solid
+
+}
+#wrapper4{
+    border-radius:0 8px 0 0;
+}
+.login-page {
+	
+  
+  width: 1000px;
+  padding: 0 0 0;
+  margin: auto;
+}
+
+.form {
+ width: 1200px;
+ height: 500px;
+	text-align: center;
+	background-color: rgba(5, 70, 94, .7);
+	border-radius: 4px;
+	margin-top: 7px;
+	margin-left: -105px;
+}
+.form img {
+	margin-top:48px;
+}
+h1{
+color: #00ffff ;  
+font-size: 80px; 
+font-family: "Calibri";
+font-weight: normal;
+line-height: 1.1em;
+margin-bottom: 1px;
+	
+}  
+h2{
+color: blue ;  
+ font-size: 25px; 
+font-family: Segoe Script;
+font-weight: bold;
+	line-height: 1.1em;
+	
+}  
+
+.form .message {
+  margin: 20px 0 0;
+  font-family: "calibri";
+  color: #b3b3b3;
+  font-size: 15px;
+}
+.form .message a {
+  color: #8080ff;
+  text-decoration: none;
+}
+.form a:hover
+{
+	color: coral;
+	font-weight: bold;
+}
+
+marquee {
+	margin-top:50px;
+}
